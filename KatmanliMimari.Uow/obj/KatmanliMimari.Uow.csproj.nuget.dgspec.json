@@ -1,0 +1,507 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Uow\\KatmanliMimari.Uow.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Core\\KatmanliMimari.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Core\\KatmanliMimari.Core.csproj",
+        "projectName": "KatmanliMimari.Core",
+        "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Core\\KatmanliMimari.Core.csproj",
+        "packagesPath": "C:\\Users\\esatk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esatk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj"
+              },
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj",
+        "projectName": "KatmanliMimari.Dal",
+        "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj",
+        "packagesPath": "C:\\Users\\esatk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esatk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.DTO\\KatmanliMimari.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.DTO\\KatmanliMimari.DTO.csproj",
+        "projectName": "KatmanliMimari.DTO",
+        "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.DTO\\KatmanliMimari.DTO.csproj",
+        "packagesPath": "C:\\Users\\esatk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esatk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj",
+        "projectName": "KatmanliMimari.Entity",
+        "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj",
+        "packagesPath": "C:\\Users\\esatk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esatk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Repository\\KatmanliMimari.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Repository\\KatmanliMimari.Repository.csproj",
+        "projectName": "KatmanliMimari.Repository",
+        "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Repository\\KatmanliMimari.Repository.csproj",
+        "packagesPath": "C:\\Users\\esatk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esatk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Core\\KatmanliMimari.Core.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Core\\KatmanliMimari.Core.csproj"
+              },
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj"
+              },
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.DTO\\KatmanliMimari.DTO.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.DTO\\KatmanliMimari.DTO.csproj"
+              },
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Entity\\KatmanliMimari.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Uow\\KatmanliMimari.Uow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Uow\\KatmanliMimari.Uow.csproj",
+        "projectName": "KatmanliMimari.Uow",
+        "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Uow\\KatmanliMimari.Uow.csproj",
+        "packagesPath": "C:\\Users\\esatk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Uow\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esatk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Dal\\KatmanliMimari.Dal.csproj"
+              },
+              "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Repository\\KatmanliMimari.Repository.csproj": {
+                "projectPath": "C:\\Users\\esatk\\OneDrive\\Masaüstü\\301Sabah\\16-EFCORE\\KatmanliMimari\\KatmanliMimari.Repository\\KatmanliMimari.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

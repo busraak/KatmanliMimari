@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-KatmanliMimari.Ui-45545651-6D60-4A5A-8EA1-297D348A2CDE</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KatmanliMimari.Core\KatmanliMimari.Core.csproj" />
+    <ProjectReference Include="..\KatmanliMimari.Dal\KatmanliMimari.Dal.csproj" />
+    <ProjectReference Include="..\KatmanliMimari.DTO\KatmanliMimari.DTO.csproj" />
+    <ProjectReference Include="..\KatmanliMimari.Entity\KatmanliMimari.Entity.csproj" />
+    <ProjectReference Include="..\KatmanliMimari.Repository\KatmanliMimari.Repository.csproj" />
+    <ProjectReference Include="..\KatmanliMimari.Uow\KatmanliMimari.Uow.csproj" />
+  </ItemGroup>
+
+</Project>

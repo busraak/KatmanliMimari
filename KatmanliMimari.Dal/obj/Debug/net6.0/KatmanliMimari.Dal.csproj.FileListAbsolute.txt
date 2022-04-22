@@ -1,0 +1,17 @@
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\bin\Debug\net6.0\KatmanliMimari.Dal.deps.json
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\bin\Debug\net6.0\KatmanliMimari.Dal.runtimeconfig.json
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\bin\Debug\net6.0\KatmanliMimari.Dal.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\bin\Debug\net6.0\KatmanliMimari.Dal.pdb
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.csproj.AssemblyReference.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.AssemblyInfoInputs.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.AssemblyInfo.cs
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.csproj.CoreCompileInputs.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\refint\KatmanliMimari.Dal.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.pdb
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.genruntimeconfig.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\ref\KatmanliMimari.Dal.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\bin\Debug\net6.0\KatmanliMimari.Entity.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\bin\Debug\net6.0\KatmanliMimari.Entity.pdb
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Dal\obj\Debug\net6.0\KatmanliMimari.Dal.csproj.CopyComplete

@@ -1,0 +1,55 @@
+﻿@model KatmanliMimari.Ui.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Crud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h4>@Model.BtnHead</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <form method="post">
+                <div class="form-group" hidden>
+                <input asp-for="Products.Id" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.ProductName" class="control-label"></label>
+                <input asp-for="Products.ProductName" class="form-control" />
+                <span asp-validation-for="Products.ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.UnitPrice" class="control-label"></label>
+                <input asp-for="Products.UnitPrice" class="form-control" />
+                <span asp-validation-for="Products.UnitPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.CategoryId" class="control-label"></label>
+
+                 <select asp-for="Products.CategoryId" class="form-control">
+                        @foreach (var item in Model.CategoriesSelects)
+                        {
+
+                                <option value="@item.Id">@item.CategoryName</option>
+
+                        }
+                    </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="@Model.BtnVal" class="@Model.BtnClass" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-dark" asp-action="List">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

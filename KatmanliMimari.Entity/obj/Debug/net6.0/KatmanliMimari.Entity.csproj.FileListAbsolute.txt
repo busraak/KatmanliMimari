@@ -1,0 +1,14 @@
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.deps.json
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.runtimeconfig.json
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.pdb
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.csproj.AssemblyReference.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.AssemblyInfoInputs.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.AssemblyInfo.cs
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.csproj.CoreCompileInputs.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\refint\KatmanliMimari.Entity.dll
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.pdb
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.genruntimeconfig.cache
+C:\Users\esatk\OneDrive\Masaüstü\301Sabah\16-EFCORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\ref\KatmanliMimari.Entity.dll
